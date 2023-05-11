@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 * {
   font-family: 'Helvetica', sans-serif;
 }
@@ -16,9 +15,10 @@ body {
   flex-direction: column;
   margin-top: 3rem;
   align-items: center;
+  gap: 1rem;
 }
 
-.fileld {
+.field {
   width: 500px;
   margin-bottom: 1rem;
   display: flex;
@@ -27,10 +27,33 @@ body {
 }
 
 label {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 textarea {
   width: 100%;
   font-size: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.counter {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+#toggle {
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#toggle:hover {
+  background-color: #0069d9;
 }
