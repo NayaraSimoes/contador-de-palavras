@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+
+* {
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+body {
+  background-color: rgba(105, 105, 105, 0.202);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.fileld {
+  width: 500px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+}
